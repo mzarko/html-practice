@@ -1,0 +1,83 @@
+body {
+    position: relative;
+    background-color: rgb(38, 38, 38);
+}
+.okvir {
+    margin: 3px 120px;
+    position: relative;
+    width: auto;
+    z-index: 1;
+    box-shadow: 0 5px 3px 0 rgb(38, 38, 38);
+}
+
+.pozadina1 {
+    background-color: white;
+    height: 120px;
+}
+
+.pozadina1 img {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    height: 60px;
+    width: 60px;
+}
+.pozadina2 {
+    height: 200px;
+    background-color: darkred;
+}
+
+.pozadina3 {
+    height: 225px;
+    background-color: black;
+}
+.container {
+    z-index: 6;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(166, 166, 166);
+    position: absolute;
+    /*padding: 80px 150px;*/
+    top: 40px;
+    left: 150px
+}
+.navbar {
+    border: 1px solid black;
+    height: 40px;
+    width: auto;
+    border-radius: 10px;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li{
+    position: relative;
+    display: inline;
+    padding: 2px 5px;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    float: left;
+    text-decoration-line: none;
+}
+.email {
+    float: right;
+    color: black;
+    font-size: 0.6em;
+}
+.email:hover {
+    font-style: italic;
+    cursor: pointer;
+}
+
+aside {
+    font-size: 0.8em;
+}
+aside a{
+    text-decoration: none;
+    color: black;
+}
+aside li{
+
+}
