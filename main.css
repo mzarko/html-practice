@@ -8,8 +8,8 @@ a{
 }
 
 body {
-    background-image: url("http://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");
-    image
+    /*background-image: url("http://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");*/
+    background: linear-gradient(white 10%, red 30%, black 60%);
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
     width: auto;
     border-radius: 10px;
     padding: 10px;
-    background-color: rgba(44, 62, 80,1.0);
+    background-color: rgba(38, 38, 38, 1.0);
 
 }
 
@@ -40,10 +40,10 @@ table{
 }
 
 .side-container{
-    margin-top: 5px;
+    margin-top: 20px;
     height: 515px;
     width: 200px;
-    background: rgba(44, 62, 80,1.0);
+    background: rgba(38, 38, 38, 1);
     border-radius: 10px;
     justify-content: space-between;
     float: left;
@@ -59,16 +59,27 @@ li{
 .social-networks {
     width: 200px;
     display: block;
-    background: rgba(44, 62, 80,1.0);
+    background: rgba(38, 38, 38, 1);
     float: left;
     clear: left;
     border-radius: 10px;
-    margin-top: 15px;
-    height: 200px;
+    margin: 20px 20px 0 0;
+    height: 190px;
+    /*position: relative;*/
 }
+
+/*Zasto nece da se pomerau redovi unutar social networks div-a*/
 .social-networks th {
-    font-size: 20px;
-    margin: 5px 10px; 
+    font-size: 22px;
+    /*text-align: right;*/
+    /*position: relative;*/
+    padding: 10px 15px;
+    color: white;
+    style: strong;
+}
+
+.social-networks td{
+    padding-left: 50px;
 }
 ul{
     list-style-type: none;
@@ -76,39 +87,31 @@ ul{
 }
 
 
-/*
-.top-menu{
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
-    margin: 25px 0;
-}
-*/
-
 .text {
     display: inline;
     height: 346px;
     float: right;
-    width: auto;
     width: 680px;
-    margin-top: -130px;
-    background: rgba(44, 62, 80,1.0);
+    margin-top: 20px;
+    background: black;
     border-radius: 10px;
+    color: white;
 }
-.text p {
+.text p, h1 {
     margin-left: 5px;
 }
 
 #top {
     display: inline;
     height: 360px;
-    width: 680px;
-    margin-top: 5px;
+    width: auto;
+    margin-top: 20px;
     float: right;
 }
 .center-content {
     height: 750px;
     justify-content: space-between;
+    width: auto;
 }
 
 
