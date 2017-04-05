@@ -8,8 +8,8 @@ a{
 }
 
 body {
-    /*background-image: url("http://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");*/
     background: linear-gradient(white 10%, red 30%, black 60%);
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -54,6 +54,7 @@ li{
     float: left;
     margin: 20px 0;
     padding-left: 5px;
+    list-style-image: url("rsz_rocket-ship-png-8.png");
 }
 
 .social-networks {
@@ -65,25 +66,32 @@ li{
     border-radius: 10px;
     margin: 20px 20px 0 0;
     height: 190px;
-    /*position: relative;*/
+
 }
 
 /*Zasto nece da se pomerau redovi unutar social networks div-a*/
 .social-networks th {
     font-size: 22px;
-    /*text-align: right;*/
-    /*position: relative;*/
+    width: 25px;
     padding: 10px 15px;
     color: white;
     style: strong;
 }
+#facebook {
+    list-style-image: url("rsz_2logo-facebook-black-10.png");
+}
+.social-networks li{
+    font-size: 20px;
+    padding: none;
+}
+.logo {
+    border: 1px solid black;
 
-.social-networks td{
-    padding-left: 50px;
 }
 ul{
-    list-style-type: none;
+/*ovo je padding za gornju listu koji me jebe u donjoj, ubaci neki ID*/
     padding: 25px;
+
 }
 
 
